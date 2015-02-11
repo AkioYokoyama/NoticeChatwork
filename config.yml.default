@@ -1,0 +1,5 @@
+# Setting of ChatWork
+CHATWORK_API_TOKEN: # Please enter a API KEY
+ENDPOINT_BASE_URL: https://api.chatwork.com
+API_VERSION: /v1
+ROOM_ID: # Please enter a chatwork room id
