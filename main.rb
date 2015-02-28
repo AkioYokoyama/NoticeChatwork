@@ -13,6 +13,7 @@ else
   response = chatwork_api.create_task(ARGV[0], ARGV[1])
 end
 
+
 JSON.parse(response.body).each do |key, value|
   puts "#{key} : #{value}"
 end
